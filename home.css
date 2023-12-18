@@ -1,6 +1,7 @@
 body {
     font-family: 'Fauna One';
     margin: 0;
+    max-width: 100%;
 }
 
 .content {
@@ -8,6 +9,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.cv-section {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
 }
 
 .header-section {
@@ -27,7 +34,7 @@ body {
 
 .about-section {
     margin-top: 40px;
-    max-width: 325px;
+    max-width: 500px;
 }
 
 footer {
@@ -35,6 +42,30 @@ footer {
     color: white;
     text-align: center;
     background-color: rgb(39, 98, 144);
+}
+
+li {
+    max-width: 500px;
+}
+
+ul .bullet {
+    margin-top: 10px;
+    padding-left: 22px;
+    list-style: url('minions.svg');
+}
+
+.bullet li {
+    margin-bottom: 10px;
+}
+
+.bullet {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.subheading {
+    margin: 0 0 0 2px;
+    font-size: 13px;
 }
 
 @media only screen and (max-width: 950px) {
