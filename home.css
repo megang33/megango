@@ -14,6 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0 25px;
 }
 
 .cv-section {
@@ -35,11 +36,16 @@ body {
 
 .title {
     font-size: 65px;
+    margin-bottom: 5px;
+}
+
+.position {
+    margin-bottom: 25px;
 }
 
 .about-section {
-    margin-top: 40px;
-    max-width: 500px;
+    margin: auto;
+    max-width: 450px;
 }
 
 li {
@@ -79,10 +85,5 @@ footer {
     .header-section {
         flex-direction: column;
         text-align: center;
-    }
-
-    .about-section {
-        margin-top: 40px;
-        max-width: 550px;
     }
 }
