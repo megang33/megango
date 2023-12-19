@@ -6,7 +6,6 @@ html {
 body {
     font-family: 'Fauna One';
     margin: 0;
-    max-width: 100%;
 }
 
 .content {
@@ -20,7 +19,7 @@ body {
 .cv-section {
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 
 .header-section {
@@ -78,6 +77,7 @@ footer {
     text-align: center;
     background-color: rgb(39, 98, 144);
     padding: 20px;
+    margin-top: 10px;
 }
 
 /* Responsive Styles */
