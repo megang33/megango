@@ -19,6 +19,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
     padding: 0 25px;
+    padding-top: 120px;
 }
 
 .cv-section {
@@ -92,6 +93,9 @@ header {
     gap: 15px;
     padding: 8px 30px 8px 0;
     margin-bottom: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .link {
