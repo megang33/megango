@@ -1,2 +1,0 @@
-# megango-website
-Personal Website
