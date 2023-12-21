@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Fauna One';
+    font-family: "Lucida Console", Monaco, monospace;
     margin: 0;
 }
 
@@ -107,10 +107,31 @@ header {
     color: white;
 }
 
+.nav-bar a:hover {
+    color: rgb(143, 185, 245);
+}
+
 /* Responsive Styles */
 @media only screen and (max-width: 950px) {
     .header-section {
         flex-direction: column;
         text-align: center;
+    }
+
+    .cv-section {
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .about-section {
+        padding: 0 15px;
+        max-width: 600px;
+    }
+
+    li {
+        max-width: 600px;
     }
 }
