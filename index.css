@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Helvetica Neue", Helvetica;
     margin: 0;
 }
 
@@ -133,5 +133,9 @@ header {
 
     li {
         max-width: 600px;
+    }
+
+    .profile {
+        margin: auto;
     }
 }
