@@ -46,11 +46,13 @@ h3 {
 
 .position {
     margin-bottom: 25px;
+    font-size: 18px;
 }
 
 .about-section {
     margin: auto;
     max-width: 450px;
+    font-size: 18px;
 }
 
 li {
@@ -67,13 +69,13 @@ ul .bullet {
 }
 
 .bullet {
-    font-size: 14px;
+    font-size: 17px;
     vertical-align: middle;
 }
 
 .subheading {
     margin: 0 0 0 2px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 /* Footer */
