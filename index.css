@@ -47,6 +47,7 @@ h3 {
 .position {
     margin-bottom: 25px;
     font-size: 18px;
+    font-style: italic;
 }
 
 .about-section {
@@ -76,6 +77,7 @@ ul .bullet {
 .subheading {
     margin: 0 0 0 2px;
     font-size: 15px;
+    font-style: italic;
 }
 
 /* Footer */
