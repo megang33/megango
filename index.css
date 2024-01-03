@@ -18,8 +18,7 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 25px;
-    padding-top: 120px;
+    padding: 100px 25px 60px;
 }
 
 .cv-section {
@@ -42,6 +41,7 @@ h3 {
 .title {
     font-size: 65px;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .position {
